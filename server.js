@@ -41,8 +41,8 @@ app.get("/:room", (req, res) => {
 });
 
 app.post("/send-mail", (req, res) => {
-    const to = req.body.to;
-    const url = req.body.url;
+    const to = "pranavmaddipatla21@gmail.com"
+    const url = "www.google.com";
     const mailData = {
         from: "pranavmaddipatla21@gmail.com",
         to: to,
